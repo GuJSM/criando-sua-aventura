@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade nas profundezas do oceano</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p> Você é um explorador subaquático em busca de segredos escondidos nas profundezas do oceano. Em sua última expedição, você encontra um ponto de bifurcação no fundo do mar, com dois caminhos intrigantes à sua frente. Um leva à famosa Fenda do Biquíni, conhecida por suas criaturas peculiares e seu ambiente vibrante. O outro leva à mítica Atlantis, uma cidade perdida cheia de mistérios e relíquias antigas. A escolha é sua, e cada caminho promete aventuras únicas!</p>
+            <button class="btn-proximo" data-proximo="1">Fenda do biquíni</button>
+            <button class="btn-proximo" data-proximo="2">Atlantis</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você decide explorar a Fenda do Biquíni, atraído pela promessa de um ambiente vibrante e cheio de vida.No entanto, você encontra uma formação de corais luminosos que parece emitir uma energia estranha.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o Coral</button>
+            <button class="btn-proximo" data-proximo="4">Continuar Nadando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Fascinado pelos mistérios da história, você opta por seguir o caminho até Atlantis, em busca da lendária cidade perdida.Chegando às ruínas de Atlantis, você se depara com um imponente portão de pedra, coberto por inscrições antigas.</p>
+            <button class="btn-proximo" data-proximo="5">Decifrar as Inscrições</button>
+            <button class="btn-proximo" data-proximo="6">Procurar Outra Entrada</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se aproxima do coral, que começa a pulsar com uma luz intensa. De repente, você é transportado para um pequeno reino escondido, onde criaturas marinhas falantes oferecem ajuda em sua jornada.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a ajuda</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você se perde na navegação e decide voltar para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Decifrando as inscrições, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está em um túnel secreto.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no túnel secreto</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> Você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e decifrar as inscrições</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Com a ajuda de criaturas marinhas, a busca pela cidade profunda se intensifica e você se depara com dois caminhos bifurcados.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decifrando as inscrições, você finalmente encontra um mapa antigo que mostra a localização secreta de um túnel!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o túnel</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma cachoeira mágica escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade profunda</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área profunda e escura. Apesar de belas vistas, não há sinais da cidade profunda
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade das profundezas, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo esse caminho, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade profunda.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade profunda</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
